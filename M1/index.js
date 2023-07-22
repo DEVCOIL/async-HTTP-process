@@ -1,7 +1,23 @@
 // M1/index.js
 const express = require('express');
 const amqp = require('amqplib/callback_api');
+const winston = require('winston');
 const app = express();
+
+
+// Настройка логгера для M1
+const logger = winston.createLogger({
+    level: 'info',
+    format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.json()
+    ),
+    defaultMeta: { service: 'M1' },
+    transports: [
+        new winston.transports.Console(),
+        new winston.transports.File({ filename: 'm1.log' }),
+    ],
+});
 
 
 app.use(express.json());
@@ -40,7 +56,7 @@ async function processRequest(data, res) {
         });
         channel.consume(resultQueue, (msg) => {
             const resultData = JSON.parse(msg.content.toString());
-            console.log('Обработано микросервисом M2', resultData);
+            logger.info('Обработано микросервисом M2', { resultData });
 
             // Отправить ответ клиенту
             res.status(200).json(resultData);
@@ -48,6 +64,7 @@ async function processRequest(data, res) {
 
             setTimeout(() => {
                 connection.close();
+                logger.info('Закрыто соединение с RabbitMQ');
             }, 500);
         }, {
             noAck: true,
@@ -60,18 +77,19 @@ async function processRequest(data, res) {
         channel.sendToQueue(queue, Buffer.from(message), {
             persistent: true,
         });
-        console.log('Отправлено в очередь', message);
+        logger.info('Отправлено в очередь', { message });
     });
 }
 
 
 app.post('/process', async (req, res) => {
     const data = req.body;
+    logger.info('Received HTTP request', { data });
     try {
         // Обработать запрос в m2 через RabbitMQ и получить результат
         await processRequest(data, res); // Передаем res в функцию
     } catch (error) {
-        console.error(error);
+        logger.error('Error occurred', { error });
         res.status(500).json({ status: 'error' });
     }
 });

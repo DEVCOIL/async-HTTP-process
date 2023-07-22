@@ -1,0 +1,25 @@
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:18:34.041Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:19:12.331Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:19:12.333Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:19:24.971Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:19:24.972Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:20:29.603Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:20:29.608Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:20:55.857Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:20:55.857Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:20:56.679Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:20:56.681Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:20:57.774Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:20:57.775Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:26:59.528Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:26:59.530Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:27:09.421Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:27:09.421Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:27:10.225Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:27:10.225Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:27:11.123Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:27:11.124Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:27:11.955Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:27:11.956Z"}
+{"level":"info","message":"Received task: {\"int\":\"10\"}","service":"M2-worker","timestamp":"2023-07-22T13:27:12.778Z"}
+{"level":"info","message":"Processed task, result: \"{\\\"result\\\":\\\"{\\\\\\\"int\\\\\\\":\\\\\\\"10\\\\\\\"} - 'было получено из очереди, обработано и ввозвращено в RabbitMQ.\\\"}\"","service":"M2-worker","timestamp":"2023-07-22T13:27:12.779Z"}
